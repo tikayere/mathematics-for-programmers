@@ -1,0 +1,414 @@
+version: 1
+project:
+  title: Mathematics for Programmers
+  authors:
+    - name: Pourou Tikayere Dominique
+  copyright: 2024
+  github: tikayere/mathematics-for-programmers
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  bibliography:
+    - references.bib
+  references:
+    myst-spec: https://mystmd.org/spec
+    myst-guide: https://mystmd.org/guide/
+  toc:
+    # Root
+    - file: index
+    
+    # Part 1 — Foundations of Mathematical Thinking
+    - title: "Part 1 — Foundations of Mathematical Thinking"
+      file: part1/ch001_why_programmers_learn_math
+      children:
+        - file: part1/ch002_mathematics_vs_programming_thinking
+        - file: part1/ch003_abstraction_and_modeling
+        - file: part1/ch004_mathematical_curiosity_and_exploration
+        - file: part1/ch005_patterns_in_nature_and_algorithms
+        - file: part1/ch006_discrete_vs_continuous_thinking
+        - file: part1/ch007_computational_experiments
+        - file: part1/ch008_visualization_as_a_learning_tool
+        - file: part1/ch009_mathematical_notation_for_programmers
+        - file: part1/ch010_reading_mathematical_expressions
+        - file: part1/ch011_sets_and_basic_set_operations
+        - file: part1/ch012_logic_and_boolean_algebra
+        - file: part1/ch013_truth_tables_and_logical_reasoning
+        - file: part1/ch014_conditional_statements_and_logic
+        - file: part1/ch015_mathematical_proof_intuition
+        - file: part1/ch016_proof_by_example_and_counterexample
+        - file: part1/ch017_mathematical_modeling
+        - file: part1/ch018_from_real_world_problem_to_mathematical_model
+        - file: part1/ch019_writing_small_mathematical_programs
+        - file: part1/ch020_project_build_a_symbolic_math_playground
+    
+    # Part 2 — Numbers and Foundations
+    - title: "Part 2 — Numbers and Foundations"
+      file: part2/part2_intro_numbers_and_foundations
+      children:
+        - file: part2/ch021_the_history_of_numbers
+        - file: part2/ch022_natural_numbers
+        - file: part2/ch023_integers
+        - file: part2/ch024_rational_numbers
+        - file: part2/ch025_irrational_numbers
+        - file: part2/ch026_real_numbers
+        - file: part2/ch027_complex_numbers_intuition
+        - file: part2/ch028_prime_numbers
+        - file: part2/ch029_factorization
+        - file: part2/ch030_number_patterns
+        - file: part2/ch031_modular_arithmetic
+        - file: part2/ch032_cycles_and_remainders
+        - file: part2/ch033_applications_of_modulo
+        - file: part2/ch034_ratios_and_proportions
+        - file: part2/ch035_fractions_visualization
+        - file: part2/ch036_scientific_notation
+        - file: part2/ch037_large_numbers_in_computing
+        - file: part2/ch038_precision_and_floating_point_errors
+        - file: part2/ch039_numerical_stability
+        - file: part2/ch040_computational_number_systems
+        - file: part2/ch041_exponents_and_powers
+        - file: part2/ch042_exponential_growth
+        - file: part2/ch043_logarithms_intuition
+        - file: part2/ch044_logarithmic_scales
+        - file: part2/ch045_computational_logarithms
+        - file: part2/ch046_growth_comparisons
+    
+    # Part 3 — Functions and Modeling
+    - title: "Part 3 — Functions and Modeling"
+      file: part3/part3_intro_functions_and_modeling
+      children:
+        - file: part3/ch051_what_is_a_function
+        - file: part3/ch052_functions_as_programs
+        - file: part3/ch053_domain_and_range
+        - file: part3/ch054_function_composition
+        - file: part3/ch055_inverse_functions
+        - file: part3/ch056_visualizing_functions
+        - file: part3/ch057_graphing_functions_with_python
+        - file: part3/ch058_linear_functions
+        - file: part3/ch059_quadratic_functions
+        - file: part3/ch060_polynomial_functions
+        - file: part3/ch061_rational_functions
+        - file: part3/ch062_piecewise_functions
+        - file: part3/ch063_step_functions
+        - file: part3/ch064_sigmoid_functions
+        - file: part3/ch065_activation_functions_in_ml
+        - file: part3/ch066_function_transformations
+        - file: part3/ch067_scaling_and_shifting
+        - file: part3/ch068_reflection_and_rotation
+        - file: part3/ch069_parameter_sensitivity
+        - file: part3/ch070_function_families
+        - file: part3/ch071_modeling_real_phenomena
+        - file: part3/ch072_fitting_simple_models
+        - file: part3/ch073_error_and_residuals
+        - file: part3/ch074_iterative_computation
+        - file: part3/ch075_recursion_and_mathematical_functions
+        - file: part3/ch076_discrete_dynamical_systems
+        - file: part3/ch077_chaos_and_sensitivity
+        - file: part3/ch078_simulation_vs_analytical_solutions
+        - file: part3/ch079_numerical_experiments
+        - file: part3/ch080_project_function_visualization_tool
+        - file: part3/ch081_project_epidemic_simulation
+        - file: part3/ch082_project_predator_prey_model
+        - file: part3/ch083_project_financial_growth_model
+        - file: part3/ch084_project_logistic_growth_simulation
+        - file: part3/ch085_project_function_approximation
+        - file: part3/ch086_project_curve_fitting
+        - file: part3/ch087_project_interactive_graph_explorer
+        - file: part3/ch088_project_modeling_traffic_flow
+        - file: part3/ch089_project_cellular_automata
+        - file: part3/ch090_project_chaos_simulator
+    
+    # Part 4 — Geometry and Visualization
+    - title: "Part 4 — Geometry and Visualization"
+      file: part4/part4_intro_geometry_and_visualization
+      children:
+        - file: part4/ch091_geometry_in_programming
+        - file: part4/ch092_points_and_coordinate_systems
+        - file: part4/ch093_cartesian_coordinates
+        - file: part4/ch094_distance_between_points
+        - file: part4/ch095_midpoints_and_interpolation
+        - file: part4/ch096_slopes_and_lines
+        - file: part4/ch097_line_equations
+        - file: part4/ch098_intersections
+        - file: part4/ch099_circles_and_geometry
+        - file: part4/ch100_angle_measurement
+        - file: part4/ch101_trigonometry_intuition
+        - file: part4/ch102_sine_and_cosine
+        - file: part4/ch103_unit_circle
+        - file: part4/ch104_wave_functions
+        - file: part4/ch105_periodic_motion
+        - file: part4/ch106_polar_coordinates
+        - file: part4/ch107_parametric_curves
+        - file: part4/ch108_geometric_transformations
+        - file: part4/ch109_rotation
+        - file: part4/ch110_scaling
+        - file: part4/ch111_reflection
+        - file: part4/ch112_translation
+        - file: part4/ch113_geometric_composition
+        - file: part4/ch114_affine_transformations
+        - file: part4/ch115_computer_graphics_basics
+        - file: part4/ch116_bezier_curves
+        - file: part4/ch117_interpolation_and_splines
+        - file: part4/ch118_geometry_in_game_development
+        - file: part4/ch119_project_2d_geometry_visualizer
+        - file: part4/ch120_project_physics_motion_simulator
+    
+    # Part 5 — Vectors
+    - title: "Part 5 — Vectors"
+      file: part5/part5_intro_vectors
+      children:
+        - file: part5/ch121_what_is_a_vector
+        - file: part5/ch122_geometric_interpretation
+        - file: part5/ch123_vectors_in_programming
+        - file: part5/ch124_vector_representation
+        - file: part5/ch125_vector_addition
+        - file: part5/ch126_scalar_multiplication
+        - file: part5/ch127_linear_combination
+        - file: part5/ch128_vector_length_norm
+        - file: part5/ch129_distance_in_vector_space
+        - file: part5/ch130_direction_vectors
+        - file: part5/ch131_dot_product_intuition
+        - file: part5/ch132_geometric_meaning_of_dot_product
+        - file: part5/ch133_angles_between_vectors
+        - file: part5/ch134_projections
+        - file: part5/ch135_orthogonality
+        - file: part5/ch136_cross_product
+        - file: part5/ch137_vector_spaces
+        - file: part5/ch138_subspaces
+        - file: part5/ch139_basis_and_dimension
+        - file: part5/ch140_span
+        - file: part5/ch141_linear_independence
+        - file: part5/ch142_coordinate_systems
+        - file: part5/ch143_vector_transformations
+        - file: part5/ch144_vectors_in_physics
+        - file: part5/ch145_vectors_in_machine_learning
+        - file: part5/ch146_vectorization_for_performance
+        - file: part5/ch147_numpy_vector_operations
+        - file: part5/ch148_project_vector_visualizer
+        - file: part5/ch149_project_particle_simulation
+        - file: part5/ch150_project_vector_based_game_physics
+    
+    # Part 6 — Linear Algebra
+    - title: "Part 6 — Linear Algebra"
+      file: part6/part6_intro_linear_algebra
+      children:
+        - file: part6/ch151_introduction_to_matrices
+        - file: part6/ch152_matrix_representation
+        - file: part6/ch153_matrix_addition
+        - file: part6/ch154_matrix_multiplication
+        - file: part6/ch155_matrix_transpose
+        - file: part6/ch156_identity_matrix
+        - file: part6/ch157_matrix_inverse
+        - file: part6/ch158_determinants_intuition
+        - file: part6/ch159_determinants_computation
+        - file: part6/ch160_systems_of_linear_equations
+        - file: part6/ch161_gaussian_elimination
+        - file: part6/ch162_matrix_factorization
+        - file: part6/ch163_lu_decomposition
+        - file: part6/ch164_linear_transformations
+        - file: part6/ch165_matrix_transformations_visualization
+        - file: part6/ch166_rotations_via_matrices
+        - file: part6/ch167_scaling_via_matrices
+        - file: part6/ch168_projection_matrices
+        - file: part6/ch169_eigenvectors_intuition
+        - file: part6/ch170_eigenvalues_intuition
+        - file: part6/ch171_eigenvalue_computation
+        - file: part6/ch172_diagonalization
+        - file: part6/ch173_singular_value_decomposition
+        - file: part6/ch174_pca_intuition
+        - file: part6/ch175_dimensionality_reduction
+        - file: part6/ch176_matrix_calculus_introduction
+        - file: part6/ch177_linear_algebra_for_neural_networks
+        - file: part6/ch178_linear_layers_in_deep_learning
+        - file: part6/ch179_numerical_linear_algebra_in_practice
+        - file: part6/ch180_project_image_compression_with_svd
+        - file: part6/ch181_project_pca_visualization
+        - file: part6/ch182_project_linear_regression_via_matrix_algebra
+        - file: part6/ch183_project_recommender_system_basics
+        - file: part6/ch184_project_neural_network_layer_implementation
+        - file: part6/ch185_project_matrix_transformation_playground
+        - file: part6/ch186_project_3d_transformations
+        - file: part6/ch187_project_face_recognition_pca
+        - file: part6/ch188_project_movie_recommendation_system
+        - file: part6/ch189_project_latent_factor_model
+        - file: part6/ch190_project_word_embedding_visualization
+        - file: part6/ch191_project_graph_embedding
+        - file: part6/ch192_rank_nullity_fundamental_theorem
+        - file: part6/ch193_pseudoinverse_least_squares
+        - file: part6/ch194_matrix_norms_conditioning
+        - file: part6/ch195_sparse_matrices_efficient_representations
+        - file: part6/ch196_iterative_methods_linear_systems
+        - file: part6/ch197_randomized_linear_algebra
+        - file: part6/ch198_kronecker_products_structured_matrices
+        - file: part6/ch199_matrix_exponentials_dynamical_systems
+        - file: part6/ch200_linear_algebra_review_synthesis
+    
+    # Part 7 — Calculus
+    - title: "Part 7 — Calculus"
+      file: part7/part7_intro_calculus
+      children:
+        - file: part7/ch201_why_calculus_matters
+        - file: part7/ch202_change_and_motion
+        - file: part7/ch203_limits_intuition
+        - file: part7/ch204_numerical_limits
+        - file: part7/ch205_derivative_concept
+        - file: part7/ch206_tangent_lines
+        - file: part7/ch207_numerical_derivatives
+        - file: part7/ch208_automatic_differentiation
+        - file: part7/ch209_gradient_intuition
+        - file: part7/ch210_partial_derivatives
+        - file: part7/ch211_multivariable_functions
+        - file: part7/ch212_gradient_descent
+        - file: part7/ch213_optimization_landscapes
+        - file: part7/ch214_saddle_points
+        - file: part7/ch215_chain_rule
+        - file: part7/ch216_backpropagation_intuition
+        - file: part7/ch217_second_derivatives
+        - file: part7/ch218_curvature
+        - file: part7/ch219_taylor_series
+        - file: part7/ch220_approximation
+        - file: part7/ch221_integration_intuition
+        - file: part7/ch222_area_under_curve
+        - file: part7/ch223_numerical_integration
+        - file: part7/ch224_monte_carlo_integration
+        - file: part7/ch225_differential_equations
+        - file: part7/ch226_simulation_differential_systems
+        - file: part7/ch227_gradient_based_learning
+        - file: part7/ch228_project_gradient_descent_visualizer
+        - file: part7/ch229_project_train_linear_regression
+        - file: part7/ch230_project_logistic_regression_scratch
+        - file: part7/ch231_newtons_method
+        - file: part7/ch232_fourier_series
+        - file: part7/ch233_constrained_optimisation
+        - file: part7/ch234_gradient_checking
+        - file: part7/ch235_convolution
+        - file: part7/ch236_vector_calculus
+        - file: part7/ch237_jacobians
+        - file: part7/ch238_sgd_theory
+        - file: part7/ch239_hessians_second_order_methods
+        - file: part7/ch240_calculus_high_dimensions
+    
+    # Part 8 — Probability
+    - title: "Part 8 — Probability"
+      file: part8/part8_intro_probability
+      children:
+        - file: part8/ch241_randomness
+        - file: part8/ch242_sample_spaces
+        - file: part8/ch243_events
+        - file: part8/ch244_probability_rules
+        - file: part8/ch245_conditional_probability
+        - file: part8/ch246_bayes_theorem
+        - file: part8/ch247_random_variables
+        - file: part8/ch248_probability_distributions
+        - file: part8/ch249_expected_value
+        - file: part8/ch250_variance
+        - file: part8/ch251_binomial_distribution
+        - file: part8/ch252_poisson_distribution
+        - file: part8/ch253_normal_distribution
+        - file: part8/ch254_central_limit_theorem
+        - file: part8/ch255_law_of_large_numbers
+        - file: part8/ch256_monte_carlo_methods
+        - file: part8/ch257_markov_chains
+        - file: part8/ch258_random_walks
+        - file: part8/ch259_simulation_techniques
+        - file: part8/ch260_project_monte_carlo_pi
+        - file: part8/ch261_bayesian_inference_in_practice
+        - file: part8/ch262_entropy_and_information
+        - file: part8/ch263_sampling_distributions_and_bootstrap
+        - file: part8/ch264_stochastic_processes_and_queuing
+        - file: part8/ch265_generating_functions_and_transforms
+        - file: part8/ch266_copulas_and_dependence
+        - file: part8/ch267_multivariate_distributions
+        - file: part8/ch268_continuous_distributions_zoo
+        - file: part8/ch269_hidden_markov_models
+        - file: part8/ch270_probability_experiments_and_simulations
+    
+    # Part 9 — Statistics and Data Science
+    - title: "Part 9 — Statistics and Data Science"
+      file: part9/part9_intro_statistics_and_data_science
+      children:
+        - file: part9/ch271_data_and_measurement
+        - file: part9/ch272_data_cleaning
+        - file: part9/ch273_descriptive_statistics
+        - file: part9/ch274_visualization_of_data
+        - file: part9/ch275_sampling
+        - file: part9/ch276_bias_and_variance
+        - file: part9/ch277_hypothesis_testing
+        - file: part9/ch278_p_values
+        - file: part9/ch279_confidence_intervals
+        - file: part9/ch280_correlation
+        - file: part9/ch281_regression
+        - file: part9/ch282_model_evaluation
+        - file: part9/ch283_overfitting
+        - file: part9/ch284_cross_validation
+        - file: part9/ch285_ab_testing
+        - file: part9/ch286_bayesian_statistics
+        - file: part9/ch287_information_theory
+        - file: part9/ch288_entropy
+        - file: part9/ch289_kl_divergence
+        - file: part9/ch290_mutual_information
+        - file: part9/ch291_feature_engineering
+        - file: part9/ch292_dimensionality_reduction
+        - file: part9/ch293_clustering
+        - file: part9/ch294_classification
+        - file: part9/ch295_neural_network_math_review
+        - file: part9/ch296_optimization_methods
+        - file: part9/ch297_large_scale_data
+        - file: part9/ch298_project_full_data_analysis_pipeline
+        - file: part9/ch299_project_build_a_mini_ml_library
+        - file: part9/ch300_capstone_end_to_end_ai_system
+    
+    # Part 10 — Deep Learning
+    - title: "Part 10 — Deep Learning"
+      file: part10/part10_intro_deep_learning
+      children:
+        - file: part10/ch301_what_is_deep_learning
+        - file: part10/ch302_the_perceptron
+        - file: part10/ch303_multilayer_networks
+        - file: part10/ch304_forward_pass
+        - file: part10/ch305_loss_functions
+        - file: part10/ch306_backpropagation_from_scratch
+        - file: part10/ch307_stochastic_gradient_descent
+        - file: part10/ch308_initialisation_strategies
+        - file: part10/ch309_activation_functions_deep_dive
+        - file: part10/ch310_batch_normalisation
+        - file: part10/ch311_dropout_and_regularisation
+        - file: part10/ch312_optimisers_adam_rmsprop_momentum
+        - file: part10/ch313_learning_rate_schedules
+        - file: part10/ch314_convolutional_neural_networks
+        - file: part10/ch315_pooling_and_receptive_fields
+        - file: part10/ch316_cnn_architectures
+        - file: part10/ch317_recurrent_neural_networks
+        - file: part10/ch318_lstm_and_gru
+        - file: part10/ch319_sequence_to_sequence_models
+        - file: part10/ch320_embeddings_and_representation_learning
+        - file: part10/ch321_attention_mechanism
+        - file: part10/ch322_transformers
+        - file: part10/ch323_positional_encoding
+        - file: part10/ch324_self_supervised_learning
+        - file: part10/ch325_generative_models_vae
+        - file: part10/ch326_generative_adversarial_networks
+        - file: part10/ch327_diffusion_models_intuition
+        - file: part10/ch328_graph_neural_networks
+        - file: part10/ch329_reinforcement_learning_foundations
+        - file: part10/ch330_policy_gradients
+        - file: part10/ch331_model_interpretability
+        - file: part10/ch332_scaling_laws
+        - file: part10/ch333_training_infrastructure
+        - file: part10/ch334_project_neural_net_from_scratch
+        - file: part10/ch335_project_cnn_image_classification
+        - file: part10/ch336_project_character_level_language_model
+        - file: part10/ch337_project_transformer_block_from_scratch
+        - file: part10/ch338_project_variational_autoencoder
+        - file: part10/ch339_project_rl_cartpole
+        - file: part10/ch340_capstone_ii_end_to_end_deep_learning_system
+
+  
+
+site:
+  options:
+    logo: logo.png
+    #favicon: figures/favicon.ico
+    folders: true
+    full_width: true
+    hide_toc: false
+  template: book-theme
