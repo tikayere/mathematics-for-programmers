@@ -1,11 +1,10 @@
 ---
-title: Mathematics For Programmers and AI
+title: Introduction
 site:
-  hide_outline: true
-  hide_toc: true
-  full_width: true
----
-
+hide_outline: true
+hide_toc: true
+full_width: true
+----------------
 
 # Mathematics for Programmers and AI
 
@@ -17,16 +16,16 @@ site:
 
 This book is a practical, intuition-first journey through mathematics for programmers, data scientists, and AI practitioners.
 
-Rather than treating math as a collection of abstract formulas, we approach it as a **tool for thinking, modeling, and building real systems**.
+Rather than treating math as a collection of abstract formulas, we approach it as a **tool for thinking, modeling, and building real systems** — the same way you use code to understand and shape behavior.
 
 You will learn how mathematical ideas connect directly to:
 
-* writing code
-* designing algorithms
-* understanding machine learning
-* building simulations and models
+* writing correct and predictable code
+* designing algorithms that scale
+* understanding how machine learning models actually work
+* building simulations and models that behave as expected
 
-Each concept is introduced visually, explored computationally, and reinforced through hands-on notebooks.
+Each concept is introduced visually, explored computationally, and reinforced through hands-on notebooks — so you don’t just read math, you *run it*.
 
 ---
 
@@ -34,10 +33,10 @@ Each concept is introduced visually, explored computationally, and reinforced th
 
 This book is built on a few core principles:
 
-* **Math is executable** → Every idea can be explored with code
-* **Intuition comes first** → Visual and experimental understanding before formalism
-* **Learning by building** → Projects are central, not optional
-* **From simple to powerful** → Gradual progression to advanced topics like deep learning
+* **Math is executable** → If you can’t experiment with it, you don’t fully understand it
+* **Intuition comes first** → Build a mental model before formal definitions
+* **Learning by building** → Projects expose what explanations hide
+* **From simple to powerful** → Small ideas compound into systems like neural networks
 
 ---
 
@@ -45,16 +44,16 @@ This book is built on a few core principles:
 
 You can read this book in multiple ways:
 
-* **Sequentially** → Follow the full path from foundations to AI
-* **By topic** → Jump to areas like linear algebra, calculus, or probability
-* **Project-first** → Start with projects and learn concepts as needed
+* **Sequentially** → Build a deep, layered understanding from the ground up
+* **By topic** → Jump to what you need (linear algebra, calculus, probability)
+* **Project-first** → Start building, then pull in concepts when something breaks or feels unclear
 
 Each chapter includes:
 
-* explanations
-* code examples
-* visualizations
-* exercises or mini-projects
+* explanations grounded in intuition
+* code examples you can run and modify
+* visualizations to make behavior visible
+* exercises or mini-projects to test understanding
 
 ---
 
@@ -74,7 +73,7 @@ The book is divided into 10 parts:
 10. **Deep Learning**
 
 Each part builds toward the ultimate goal:
-👉 understanding and implementing modern AI systems from first principles.
+👉 understanding and implementing modern AI systems from first principles — not just using them, but knowing why they work and when they fail.
 
 ---
 
@@ -104,6 +103,8 @@ Throughout the book, you will implement:
 * machine learning models
 * neural networks from scratch
 
+You won’t just use these tools — you’ll understand the assumptions behind them and what breaks when those assumptions fail.
+
 By the end, you will have a **complete mental and practical toolkit** connecting mathematics to real-world systems.
 
 ---
@@ -112,17 +113,19 @@ By the end, you will have a **complete mental and practical toolkit** connecting
 
 This book is for:
 
-* Programmers who want to truly understand math
-* Students learning applied mathematics or computer science
-* Data scientists and ML engineers
-* Curious learners who prefer *doing* over memorizing
+* Programmers who want to truly understand the math behind their code
+* Students in applied mathematics or computer science
+* Data scientists and ML engineers who want deeper intuition
+* Curious learners who prefer *building and testing* over memorizing
 
 ---
 
 ## 📌 Final Note
 
 Mathematics is not about memorizing formulas.
-It is about **seeing patterns, building models, and understanding systems**.
+It is about **predicting behavior, spotting patterns, and reasoning about systems**.
+
+In programming terms: it’s what lets you understand *why your code works* — and more importantly, *why it breaks*.
 
 This book invites you to explore math the way programmers do:
 

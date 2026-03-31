@@ -407,8 +407,8 @@ project:
 site:
   options:
     logo: logo.png
-    #favicon: figures/favicon.ico
+    favicon: favicon.ico
     folders: true
     full_width: true
-    hide_toc: false
+
   template: book-theme
